@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg");
+        }
+        form{
+            width: 20%;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin-top: 7%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(223, 222, 220);
+            line-height: 2.4rem;
+        }
+        h1{
+            font-family: cursive;
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <form action="/" method="post">
+        <label for="cityInput">City Name: </label>
+        <input type="text" id="cityInput" name="cityName"><br>
+        <button type="submit">GO</button>
+    </form>
+</body>
+</html>
